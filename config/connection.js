@@ -1,5 +1,6 @@
 const { connect, connection } = require('mongoose');
 
-connect('mongodb+srv://root:root@pingdrew.tokr7ac.mongodb.net/developersApplications');
+// i had errors with my mongo db account so i used andrews
+connect('');
 
 module.exports = connection;
